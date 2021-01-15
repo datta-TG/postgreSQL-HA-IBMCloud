@@ -64,7 +64,7 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 * Click on the search section at the top of the main page, type postgreSQL HA, and click on it.
 
-![Screenshot](post1.PNG)
+![Screenshot](psqlha1.PNG)
 
 * A new window opens, select the cluster and enter the name you want for the PostgreSQL HA workspace; in this case, it will be called _postgresql-ha-example_; then, go to the bottom to find the workspace parameters.
 
@@ -72,17 +72,17 @@ You can modify the different installation parameters at the bottom. We will leav
 
 Make sure you set up a password in the _postgresqlPassword_ and the pgpool.adminPassword variable. 
 
-![Screenshot](psql4.PNG)
+![Screenshot](psqlha4.PNG)
 
-![Screenshot](psql5.PNG)
+![Screenshot](psqlha5.PNG)
 
 You can create an additional non-admin user if you edit the _postgresql.username_ variable. The admin user will continue to be 'Postgres.' 
 
-![Screenshot](psql3.PNG)
+![Screenshot](psqlha3.PNG)
 
 When you're done, accept the terms, and click on *Install*.
 
-![Screenshot](psql52.PNG)
+![Screenshot](psqlha2.PNG)
 
 
 ## Step 4: Verify Installation
